@@ -1,0 +1,34 @@
+.Rolldice1 {
+    text-align: center;
+    padding-top: 2rem;
+    width: 250px;
+    align-self: center;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 7px 10px 12px -5px rgba(0,0,0,0.56);
+    background-color: rgb(255, 189, 222);
+}
+
+.Rolldice2 {
+    text-align: center;
+    padding-top: 2rem;
+    width: 250px;
+    align-self: center;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 7px 10px 12px -5px rgba(0,0,0,0.56);
+    background-color: rgb(217, 212, 252);
+}
+
+
+
+button {
+    background-color: turquoise;
+    padding: 1rem;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-size: 1rem;
+    box-shadow:7px 10px 12px -5px rgba(0,0,0,0.56); 
+    border-radius: 4px;
+}
+

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './Pokecard.css'; 
+import {p1Value, p2Value} from '../../Rolldice/Rolldice'
 
 
 // const POKE_API="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/";
@@ -10,7 +11,7 @@ class Pokecard extends Component{
 
         let id = this.props.id <= 999 ? `00${this.props.id}`.slice(-3) : this.props.id
         let imgSrc = `${POKE_API}${id}.png`
-
+        console.log('this : > ',p1Value)
         return (
             <div className="Pokecard">
                 <h1 className="Pokecard-title ">{this.props.name}</h1>

@@ -6,14 +6,14 @@ class Pokegame extends Component{
 
     state = {
         pokemon : [
-            { id: 4, name: 'Charmander', type: 'fire', exp: 62 },
-            { id: 7, name: 'Squirtle', type: 'water', exp: 63 },
-            { id: 11, name: 'Metapod', type: 'bug', exp: 72 },
-            { id: 12, name: 'Butterfree', type: 'flying', exp: 178 },
-            { id: 25, name: 'Pikachu', type: 'electric', exp: 112 },
-            { id: 39, name: 'Jigglypuff', type: 'normal', exp: 98 },
-            { id: 94, name: 'Gengar', type: 'poison', exp: 225 },
-            { id: 133, name: 'Eevee', type: 'normal', exp: 65 },
+            { id: 4, name: 'Charmander', type: 'fire', exp: 62, n: 1 },
+            { id: 7, name: 'Squirtle', type: 'water', exp: 63, n: 2 },
+            { id: 11, name: 'Metapod', type: 'bug', exp: 72, n: 3 },
+            { id: 12, name: 'Butterfree', type: 'flying', exp: 178, n: 4 },
+            { id: 25, name: 'Pikachu', type: 'electric', exp: 112, n: 5 },
+            { id: 39, name: 'Jigglypuff', type: 'normal', exp: 98, n: 6 },
+            { id: 94, name: 'Gengar', type: 'poison', exp: 225, n: 7 },
+            { id: 133, name: 'Eevee', type: 'normal', exp: 65, n: 8 },
         ]
     };
 

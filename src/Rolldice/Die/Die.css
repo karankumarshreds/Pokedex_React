@@ -1,0 +1,10 @@
+.Player1 {
+    font-size: 5em;
+    padding: 1rem;
+    color: slateblue;
+}
+.Player2 {
+    font-size: 5em;
+    padding: 1rem;
+    color: rgb(240, 59, 149);
+}
