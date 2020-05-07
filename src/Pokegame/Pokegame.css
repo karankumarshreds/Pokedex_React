@@ -1,0 +1,9 @@
+.Win {
+    color: rgb(5, 163, 5);
+    text-align: center;
+}
+
+.Lose {
+    color: rgb(241, 2, 82); 
+    text-align: center;
+}
